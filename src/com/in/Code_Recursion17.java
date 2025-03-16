@@ -17,8 +17,8 @@ public class Code_Recursion17 {
 			return false;
 		}
 		
-		return (rev * 10 
-				+ rem) + isPalindrome(n/10);
+		return  isPalindrome(n/10);
+		//(rev * 10 + rem) +
 		
 	}
 
